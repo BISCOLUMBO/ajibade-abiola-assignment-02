@@ -17,11 +17,11 @@ function sumOfNumbers(arrayOfNumbers) {
   let sum = 0;
     for(let j = 0; j < arrayOfNumbers.length; j++)
     {
-      sum = sum + arrayOfNumbers[k];
+      sum += arrayOfNumbers[j];
                                                   }
     return sum;
 }
-assignment.sumOfNumbers = sumOfNumbers;
+//assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
